@@ -1,5 +1,5 @@
 # Objects
-Objects are instances of a `class`.
+Objects are instances of a [`class`](https://github.com/fslcoding/Classes).
 
 An object can be created from a normal `class` (not an `abstract` class) by triggering a `constructor` call.
 
