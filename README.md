@@ -37,9 +37,9 @@ public class Car
 }
 ```
 
-A object of a class can be defined by it's **Instance Variables** (attributes) or **Properties**. These are mutually exclusive and should not co-exist in the same class.
+A object of a `class` can be defined by it's **Instance Variables** (attributes) or **`Properties`**. These are mutually exclusive and should not co-exist in the same `class`.
 
-Properties are much easier to maintain and are much more efficient than instance variables. The following example demonstrates attributes stored as both instance variables and properties in the same class. Not the capital first letter of the property to dsinguish it from the instance variable of the same name. 
+`Properties` are much easier to maintain and are much more efficient than instance variables. The following example demonstrates attributes stored as both instance variables and `properties` in the same `class`. Not the capital first letter of the property to dsinguish it from the instance variable of the same name. 
 
 ```cs
 
