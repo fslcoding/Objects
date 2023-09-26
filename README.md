@@ -34,24 +34,26 @@ public class Car
 A object of a class can be defined by it's **Instance Variables** (attributes) or **Properties**. These are mutually exclusive and should not co-exist in the same class.
 
 Properties are much easier to maintain and are much more efficient than instance variables. The following example demonstrates attributes stored as both instance variables and properties in the same class. Not the capital first letter of the property to dsinguish it from the instance variable of the same name. 
+            
+            //These are instance variables which means if i create an object of the class dog, each dog object will automatically have access to these instance variables
+            private string name;
+            private string breed;
+            private string size;
+            private string birthDate;
 
-//These are instance variables which means if i create an object of the class dog, each dog object will automatically have access to these instance variables
-private string name;
-private string breed;
+            //The following are property equivalents to each instance variable of the same name
+            //Please note you should only use one or the other never both 
+            //The properties have been capitalised to distinguish between variables of the same name
+            //The notation for Properties is much simpler to use than getter/setter  methods
+            public string Name
+            {
+                get;
+                set;
+            }
 
-//The following are property equivalents to each instance variable of the same name
-//Please note you should only use one or the other never both 
-//The properties have been capitalised to distinguish between variables of the same name
-//The notation for Properties is much simpler to use than getter/setter  methods
-public string Name
-{
-    get;
-    set;
-}
+            public string Breed
+            {
+                get;
+                set;
 
-public string Breed
-{
-    get;
-    set;
-
-}
+            }
